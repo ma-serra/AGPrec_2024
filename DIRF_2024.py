@@ -13,7 +13,6 @@ from PIL import Image
 import pandas as pd
 import re
 import time
-import pyxlsb
 #st.spinner(text="In progress...")
 st.set_page_config(layout="centered", page_icon="⚖", page_title="Tribunal de Justiça do MA")
 image = Image.open('logoTJMA.jpg')
