@@ -29,7 +29,7 @@ meio.write(
 
 right.write("Este é o modelo que será emitido:")
 
-right.image("Comprovante de rendimentos DIRF2024_2.png", width=180)
+right.image("Comprovante de rendimentos DIRF2024_2.png", width=120)
 
 env = Environment(loader=FileSystemLoader("."), autoescape=select_autoescape())
 template = env.get_template("Comprovante de rendimentos DIRF2024.html")
