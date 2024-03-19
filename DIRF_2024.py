@@ -20,12 +20,13 @@ st.image(image)
 st.subheader("⚖ Tribunal de Justiça do MA")
 st.write("Emissão de comprovante DIRF 2024.")
 
-
-meio, left, right = st.columns(3)
-
-meio.write(
+st.write(
     "Este App emite o comprovante de rendimentos referente ao recebimento de até 1 precatório no ano de 2024. Caso tenha recebido mais de um pagamento, por favor entrar em contato com a Assessoria de Gestão de Precatórios. Fone: (98) 2055-2426."
 , style="text-align: justjy")
+
+left, right = st.columns(3)
+
+
 
 right.write("Este é o modelo que será emitido:")
 
